@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAHRAA portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar container">
+            <span class="logo">ZAHRAA</span>
+            <button class="menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"></button>
+            <!-- to make it work on phones too -->
+             <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Get In Touch</a></li>
+             </ul>
+        </nav>
+    </header>
+    
+    <main>
+<!-- home -->
+        <section class="hero id=home">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="hero-welcome">Hi, welcome to my portfolio. I'm </p>
+                    <h1>ZAHRAA</h1>
+
+                    <p class="hero-intro">
+                        Passionate developer, ambitious dreamer, and someone who believes nothing is impossible.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Projects</a>
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image-area">
+                    <div class="bubble bubble-one"></div>
+                    <div class="bubble bubble-two"></div>
+
+                    <div class="hero-bubble">
+                        <span>You deem yourself a small, insignificant creature, yet within you lies the vast universe.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- abt me -->
+         <section class="about section" id="about">
+            <div class="container">
+
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I started getting into programming because I love the feeling of making something
+                            from nothing. One small idea, a few lines of code, and suddenly there is a real page
+                            I can open and click.
+                        </p>
+                        <p>
+                            I dream big, and I'm not shy about it. I want to turn my ideas into real things,
+                            and I want to show that with enough effort, patience, and creativity, nothing is impossible.
+                        </p>
+                    </div>
+                    <div class="about-card">
+                        <h3> A little more about me</h3>
+                        <ul>
+                            <li>I enjoy experimenting with new ideas.</li>
+                            <li>I like building things and fixing them until they work.</li>
+                            <li>I'm curious and always looking for the next thing to learn.</li>
+                        </ul>
+                    </div>
+                </div>
+         </section>
+
+         <!-- skills -->
+          <section class="skills section" id="skills">
+            <div class="container">
+            <h2> class="section-title">Skills</h2>
+            <h3 class="skills-subtitle">Technical Skills</h3>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <span class="skill-icon">&lt;/&gt;</span>
+                        <h4>HTML</h4>
+                    </article>
+                    <article class="skill-card">
+                        <span class="skill-icon">{ }</span>
+                        <h4>CSS</h4>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-icon">JS</span>
+                        <h4>JavaScript</h4>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-icon">Py</span>
+                        <h4>Python</h4>
+                    </article>
+                </div>
+                <h3 class="skills-subtitle">Sot Skills</h3>
+                <div class="soft-grid">
+                    <article class="soft-card">
+                        <h4>Creativity</h4>
+                        <p>I like coming up with my own ideas instead of copying someone else's.</p>
+                    </article>
+
+                    <article class="soft-card">
+                        <h4>Determination</h4>
+                        <p>When something doesn't work, I keep trying until it does.</p>
+                    </article>
+
+                    <article class="soft-card">
+                        <h4>Problem Solving</h4>
+                        <p>I enjoy breaking a problem into small steps and figuring it out.</p>
+                    </article>
+                </div>
+
+        </div>
+          </section>
+          <!--projects -->
+        <section class="projects section" id="projects">
+            <div class="container">
+
+                <h2 class="section-title">Projects</h2>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="screenshots/japan.png" alt="Japan Guide project screenshot">
+                        </div>
+
+                        <div class="project-info">
+                            <h3>Japan Guide</h3>
+
+                            <p>
+                                A small website about Japan that contains tourist sites, famous food,
+                                and what makes the country special.
+                            </p>
+
+                            <ul class="tech-list">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+
+                            <a href="projects/japan/index.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                                View Project
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="screenshots/calculator.png" alt="Calculator project screenshot">
+                        </div>
+
+                        <div class="project-info">
+                            <h3>Calculator</h3>
+
+                            <p>
+                                A calculator that adds, subtracts, multiplies and divides,
+                                with buttons to delete and clear.
+                            </p>
+
+                            <ul class="tech-list">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+
+                            <a href="projects/calculator/index.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                                View Project
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="screenshots/pixelatedArt.png" alt="Pixel Art project screenshot">
+                        </div>
+
+                        <div class="project-info">
+                            <h3>Pixel Art</h3>
+
+                            <p>
+                                A small drawing grid where you pick a color from the palette
+                                and click the squares to make pixel art.
+                            </p>
+
+                            <ul class="tech-list">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+
+                            <a href="projects/pixelatedArt/index.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                                View Project
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+       <!-- get in touch -->
+        <section class="contact section" id="contact">
+            <div class="container contact-content">
+
+                <div class="contact-intro">
+                    <h2 class="section-title">Get In Touch</h2>
+
+                    <p>Have an idea, a question, or just want to say hi? Send me a message and I'll get back to you.</p>
+                </div>
+
+                <form action="https://formspree.io/f/xayrvaap" method="post" class="contact-form">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+    </main>
+    
+    <footer class="site-footer">
+        <p>ZAHRAA | 2026</p>
+        <p>Dream big. Keep learning.</p>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+</html>
